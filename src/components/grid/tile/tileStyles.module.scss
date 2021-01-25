@@ -1,0 +1,49 @@
+.tile {
+  height: 32.9%;
+  width: 32.9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightgrey;
+  border: 1px solid white;
+  margin: 0 auto;
+}
+
+.tile:hover {
+  background: lightblue;
+}
+
+.tileX {
+  height: 32.9%;
+  width: 32.9%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #25fdf5;
+  border: 1px solid white;
+}
+
+.tileO {
+  height: 32.9%;
+  width: 32.9%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ff2daa;
+  border: 1px solid white;
+}
+
+.tileText {
+  height: 75%;
+  width: 75%;
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1000%;
+}

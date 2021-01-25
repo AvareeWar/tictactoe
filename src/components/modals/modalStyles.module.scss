@@ -1,0 +1,25 @@
+#winnerModal {
+  height: 15%;
+  width: 100%;
+  position: fixed;
+  border: none;
+  background: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#tieModal {
+  height: 15%;
+  width: 100vw;
+  position: fixed;
+  border: none;
+  background: #25fdf5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
